@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>io.github.ashisht</groupId>
     <artifactId>common-models</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -12,6 +12,21 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+
+    <scm>
+        <connection>scm:git:https://github.com/ashish-thakur111/common-models.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:ashish-thakur111/common-models.git</developerConnection>
+        <url>https://github.com/ashish-thakur111/common-models</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+        </dependency>
+    </dependencies>
 
     <distributionManagement>
         <repository>
