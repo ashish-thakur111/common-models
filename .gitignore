@@ -1,2 +1,7 @@
 .idea
 release.properties
+*.iml
+.settings
+.classpath
+.factorypath
+.project

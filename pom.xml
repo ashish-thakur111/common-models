@@ -43,6 +43,7 @@
                 <configuration>
                     <localCheckout>true</localCheckout>
                     <pushChanges>false</pushChanges>
+                    <remoteTagging>true</remoteTagging>
                     <preparationGoals>validate</preparationGoals>
                 </configuration>
             </plugin>
